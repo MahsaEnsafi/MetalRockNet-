@@ -21,7 +21,7 @@ from tensorflow import keras
 
 
 
-data=pd.read_csv('/content/drive/MyDrive/data/tutrial_tensorflow/MetalRockNet/data.csv')
+data=pd.read_csv('data.csv')
 data.sample(4)
 
 data.shape
